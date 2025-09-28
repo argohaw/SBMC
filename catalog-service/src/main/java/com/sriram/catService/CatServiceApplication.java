@@ -2,11 +2,15 @@ package com.sriram.catService;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.context.properties.ConfigurationPropertiesScan;
 
 @SpringBootApplication
-public class CatServiceApplication {
+@ConfigurationPropertiesScan
+public class CatServiceApplication
+{
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         SpringApplication.run(CatServiceApplication.class, args);
     }
 }
