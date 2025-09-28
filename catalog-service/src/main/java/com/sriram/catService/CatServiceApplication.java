@@ -9,6 +9,7 @@ import org.springframework.boot.context.properties.ConfigurationPropertiesScan;
 public class CatServiceApplication
 {
 
+    //Main method
     public static void main(String[] args)
     {
         SpringApplication.run(CatServiceApplication.class, args);
